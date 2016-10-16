@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FunFactoid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pgz-Pf-JeU">
+                                <color key="backgroundColor" red="0.5080012702892599" green="0.48267093120805371" blue="0.50691066036241617" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="2Rj-kP-yHH"/>
+                                    <constraint firstAttribute="height" constant="40" id="ayt-5o-lQc"/>
+                                </constraints>
+                                <color key="tintColor" red="0.5" green="0.42749230980000003" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Show Another Fun Fact">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="oaz-rd-d9Y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6Vc-cL-pQd">
+                                <string key="text">You are born with 300 bones; by the time you are an adult you will have 206.You are born with 300 bones; by the time you are an adult you will have 206.You are born with 300 bones; by the time you are an adult you will have 206.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="0.5490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <size key="shadowOffset" width="-3" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8X-2A-2dF">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.5" green="0.42749230984340036" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Pgz-Pf-JeU" firstAttribute="centerX" secondItem="6Vc-cL-pQd" secondAttribute="centerX" id="HFB-L5-5z3"/>
+                            <constraint firstItem="6Vc-cL-pQd" firstAttribute="top" secondItem="g8X-2A-2dF" secondAttribute="bottom" constant="8" symbolic="YES" placeholder="YES" id="Hoh-zu-hzF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pgz-Pf-JeU" secondAttribute="trailing" constant="20" id="J7f-nJ-1qo"/>
+                            <constraint firstItem="g8X-2A-2dF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="184" placeholder="YES" id="Om3-t6-nmw"/>
+                            <constraint firstItem="Pgz-Pf-JeU" firstAttribute="top" secondItem="6Vc-cL-pQd" secondAttribute="bottom" constant="146" id="SrC-eN-cVl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6Vc-cL-pQd" secondAttribute="trailing" constant="20" id="TT1-Sq-Yd0"/>
+                            <constraint firstItem="Pgz-Pf-JeU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="bzi-Wf-WMA"/>
+                            <constraint firstItem="6Vc-cL-pQd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dLv-vk-dJg"/>
+                            <constraint firstItem="g8X-2A-2dF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="nuz-V2-Nle"/>
+                            <constraint firstItem="g8X-2A-2dF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="156" id="p06-Zd-nux"/>
+                            <constraint firstItem="6Vc-cL-pQd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="240" id="y9i-jo-IhI"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Hoh-zu-hzF"/>
+                                <exclude reference="Om3-t6-nmw"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="funFactButton" destination="Pgz-Pf-JeU" id="pKE-nc-pBV"/>
+                        <outlet property="funFactLabel" destination="6Vc-cL-pQd" id="mv1-wc-uys"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.8" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ghh-h7-vki">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Touchy-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AuthenticationVC" customModule="touchy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="74o-dE-hcT">
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="9F9-EZ-g8n">
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touchID" translatesAutoresizingMaskIntoConstraints="NO" id="cDD-JM-JFe">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="240" id="7Qt-CP-pk0"/>
+                                                    <constraint firstAttribute="height" constant="128" id="H3c-Pe-Tzc"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haU-50-tkV" customClass="RoundedOutlineButton" customModule="touchy" customModuleProvider="target">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="175" id="0I6-Ah-Bck"/>
+                                                    <constraint firstAttribute="height" constant="50" id="1xJ-6H-WE8"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
+                                                <state key="normal" title="Use Touch ID">
+                                                    <color key="titleColor" red="0.81568627449999997" green="0.0078431372550000003" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.81568627450980391" green="0.0078431372549019607" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="useTouchIDButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WAL-b9-cCx"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="74o-dE-hcT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="75h-tq-qbc"/>
+                            <constraint firstItem="74o-dE-hcT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zv2-Pb-xwC"/>
+                            <constraint firstItem="74o-dE-hcT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fq6-82-gnI"/>
+                            <constraint firstItem="74o-dE-hcT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gLD-Ff-FyU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Touchy" id="50B-MQ-QoN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="908" y="-559"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dFk-ks-lu9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ghh-h7-vki" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TiA-2O-lDB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7CD-0T-Xso"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oVe-xK-ZeK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="-559.07046476761627"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Seg-wt-px2">
+            <objects>
+                <viewController id="TZq-ie-DRK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2sB-dJ-Grg"/>
+                        <viewControllerLayoutGuide type="bottom" id="h3s-sj-PmI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dcq-Hq-Fu3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="j5V-Eg-5Ec">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touchIDSuccess" translatesAutoresizingMaskIntoConstraints="NO" id="ltQ-hB-uBr">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="110" id="M7L-TS-9xP"/>
+                                            <constraint firstAttribute="width" constant="110" id="Nda-EP-Sgz"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Success!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvV-sE-Aa4">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="175" id="FnU-Mj-94V"/>
+                                            <constraint firstAttribute="height" constant="50" id="Thb-cq-zBe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
+                                        <color key="textColor" red="0.25490196078431371" green="0.45882352941176469" blue="0.019607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="j5V-Eg-5Ec" firstAttribute="centerY" secondItem="Dcq-Hq-Fu3" secondAttribute="centerY" id="0rc-xq-nRI"/>
+                            <constraint firstItem="j5V-Eg-5Ec" firstAttribute="centerX" secondItem="Dcq-Hq-Fu3" secondAttribute="centerX" id="T7k-8m-3ze"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EGC-D5-bAr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1712.8" y="-559.07046476761627"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="touchID" width="163" height="158"/>
+        <image name="touchIDSuccess" width="180" height="175"/>
+    </resources>
+</document>
