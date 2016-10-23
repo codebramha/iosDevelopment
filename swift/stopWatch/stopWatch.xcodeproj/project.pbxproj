@@ -16,6 +16,7 @@
 		3B1774511DB5C09100AF5768 /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1774501DB5C09100AF5768 /* play-button.png */; };
 		3B1774531DB5C0D500AF5768 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1774521DB5C0D500AF5768 /* pause.png */; };
 		3B1774551DB5C4D200AF5768 /* lap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1774541DB5C4D200AF5768 /* lap.png */; };
+		3BFA75A71DBC3595008E257D /* reset1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BFA75A61DBC3595008E257D /* reset1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3B1774501DB5C09100AF5768 /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
 		3B1774521DB5C0D500AF5768 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		3B1774541DB5C4D200AF5768 /* lap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lap.png; sourceTree = "<group>"; };
+		3BFA75A61DBC3595008E257D /* reset1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3B17744E1DB5BFDE00AF5768 /* stopwatch.png */,
 				3B1774501DB5C09100AF5768 /* play-button.png */,
 				3B1774521DB5C0D500AF5768 /* pause.png */,
+				3BFA75A61DBC3595008E257D /* reset1.png */,
 				3B1774541DB5C4D200AF5768 /* lap.png */,
 				3B1774431DB5A7D900AF5768 /* LaunchScreen.storyboard */,
 				3B1774461DB5A7D900AF5768 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B1774511DB5C09100AF5768 /* play-button.png in Resources */,
+				3BFA75A71DBC3595008E257D /* reset1.png in Resources */,
 				3B1774451DB5A7D900AF5768 /* LaunchScreen.storyboard in Resources */,
 				3B1774531DB5C0D500AF5768 /* pause.png in Resources */,
 				3B17744F1DB5BFDE00AF5768 /* stopwatch.png in Resources */,
@@ -316,6 +320,7 @@
 				3B17744B1DB5A7DA00AF5768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
