@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  navigationBar
+//  navigationBar.
 //
 //  Created by harikanth on 10/17/16.
 //  Copyright © 2016 Code Bramha. All rights reserved.
