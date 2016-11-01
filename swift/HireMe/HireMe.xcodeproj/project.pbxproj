@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3864209C3001CC01B15B6D39 /* Pods_HireMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CE52FCB3317C7CB8BB700 /* Pods_HireMe.framework */; };
+		3BF200291DC11E3600ED88F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF200281DC11E3600ED88F0 /* AppDelegate.swift */; };
+		3BF2002B1DC11E3600ED88F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2002A1DC11E3600ED88F0 /* ViewController.swift */; };
+		3BF2002E1DC11E3600ED88F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF2002C1DC11E3600ED88F0 /* Main.storyboard */; };
+		3BF200301DC11E3600ED88F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF2002F1DC11E3600ED88F0 /* Assets.xcassets */; };
+		3BF200331DC11E3600ED88F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF200311DC11E3600ED88F0 /* LaunchScreen.storyboard */; };
+		3BF2003B1DC11E4A00ED88F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BF2003A1DC11E4A00ED88F0 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B99391D23DB9B4AF5E62074 /* Pods-HireMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HireMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-HireMe/Pods-HireMe.release.xcconfig"; sourceTree = "<group>"; };
+		3BF200251DC11E3600ED88F0 /* HireMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HireMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF200281DC11E3600ED88F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BF2002A1DC11E3600ED88F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BF2002D1DC11E3600ED88F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BF2002F1DC11E3600ED88F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BF200321DC11E3600ED88F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BF200341DC11E3600ED88F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF2003A1DC11E4A00ED88F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		70002C763586B38A3D7FADAC /* Pods-HireMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HireMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HireMe/Pods-HireMe.debug.xcconfig"; sourceTree = "<group>"; };
+		D35CE52FCB3317C7CB8BB700 /* Pods_HireMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HireMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BF200221DC11E3600ED88F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3864209C3001CC01B15B6D39 /* Pods_HireMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF2001C1DC11E3600ED88F0 = {
+			isa = PBXGroup;
+			children = (
+				3BF200271DC11E3600ED88F0 /* HireMe */,
+				3BF200261DC11E3600ED88F0 /* Products */,
+				B5F40250570F64D162CD9BE4 /* Pods */,
+				A3B4DA852A72D9701BEA188B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BF200261DC11E3600ED88F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF200251DC11E3600ED88F0 /* HireMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BF200271DC11E3600ED88F0 /* HireMe */ = {
+			isa = PBXGroup;
+			children = (
+				3BF200281DC11E3600ED88F0 /* AppDelegate.swift */,
+				3BF2002A1DC11E3600ED88F0 /* ViewController.swift */,
+				3BF2002C1DC11E3600ED88F0 /* Main.storyboard */,
+				3BF2002F1DC11E3600ED88F0 /* Assets.xcassets */,
+				3BF200311DC11E3600ED88F0 /* LaunchScreen.storyboard */,
+				3BF200341DC11E3600ED88F0 /* Info.plist */,
+				3BF2003A1DC11E4A00ED88F0 /* GoogleService-Info.plist */,
+			);
+			path = HireMe;
+			sourceTree = "<group>";
+		};
+		A3B4DA852A72D9701BEA188B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35CE52FCB3317C7CB8BB700 /* Pods_HireMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5F40250570F64D162CD9BE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70002C763586B38A3D7FADAC /* Pods-HireMe.debug.xcconfig */,
+				0B99391D23DB9B4AF5E62074 /* Pods-HireMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BF200241DC11E3600ED88F0 /* HireMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF200371DC11E3600ED88F0 /* Build configuration list for PBXNativeTarget "HireMe" */;
+			buildPhases = (
+				7FAFD376AC97E7733F34A790 /* [CP] Check Pods Manifest.lock */,
+				3BF200211DC11E3600ED88F0 /* Sources */,
+				3BF200221DC11E3600ED88F0 /* Frameworks */,
+				3BF200231DC11E3600ED88F0 /* Resources */,
+				32F550E77BD400D23509E34B /* [CP] Embed Pods Frameworks */,
+				2494ED7F48F5535D48326150 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HireMe;
+			productName = HireMe;
+			productReference = 3BF200251DC11E3600ED88F0 /* HireMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BF2001D1DC11E3600ED88F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Code Bramha";
+				TargetAttributes = {
+					3BF200241DC11E3600ED88F0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3W768REU4L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BF200201DC11E3600ED88F0 /* Build configuration list for PBXProject "HireMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BF2001C1DC11E3600ED88F0;
+			productRefGroup = 3BF200261DC11E3600ED88F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BF200241DC11E3600ED88F0 /* HireMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BF200231DC11E3600ED88F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF200331DC11E3600ED88F0 /* LaunchScreen.storyboard in Resources */,
+				3BF2003B1DC11E4A00ED88F0 /* GoogleService-Info.plist in Resources */,
+				3BF200301DC11E3600ED88F0 /* Assets.xcassets in Resources */,
+				3BF2002E1DC11E3600ED88F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2494ED7F48F5535D48326150 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HireMe/Pods-HireMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32F550E77BD400D23509E34B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HireMe/Pods-HireMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FAFD376AC97E7733F34A790 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BF200211DC11E3600ED88F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF2002B1DC11E3600ED88F0 /* ViewController.swift in Sources */,
+				3BF200291DC11E3600ED88F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BF2002C1DC11E3600ED88F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BF2002D1DC11E3600ED88F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BF200311DC11E3600ED88F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BF200321DC11E3600ED88F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BF200351DC11E3600ED88F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BF200361DC11E3600ED88F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BF200381DC11E3600ED88F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70002C763586B38A3D7FADAC /* Pods-HireMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3W768REU4L;
+				INFOPLIST_FILE = HireMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebramha.HireMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3BF200391DC11E3600ED88F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B99391D23DB9B4AF5E62074 /* Pods-HireMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3W768REU4L;
+				INFOPLIST_FILE = HireMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebramha.HireMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BF200201DC11E3600ED88F0 /* Build configuration list for PBXProject "HireMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF200351DC11E3600ED88F0 /* Debug */,
+				3BF200361DC11E3600ED88F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF200371DC11E3600ED88F0 /* Build configuration list for PBXNativeTarget "HireMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF200381DC11E3600ED88F0 /* Debug */,
+				3BF200391DC11E3600ED88F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BF2001D1DC11E3600ED88F0 /* Project object */;
+}
